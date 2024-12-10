@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\LEDMatrix_ESP32\color\color.c">
+      <Filter>color</Filter>
+    </ClCompile>
+    <ClCompile Include="test_color.cc">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LEDMatrix_ESP32\networking\message_headers.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LEDMatrix_ESP32\color\color.h">
+      <Filter>color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LEDMatrix_ESP32\utils\math_funcs.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="networking">
+      <UniqueIdentifier>{1ff0b2d0-fbe2-40d2-9125-dd1419890415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color">
+      <UniqueIdentifier>{acc58c33-7988-4949-b131-667240875ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{0a994186-c110-4183-937e-a15f787b2757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{451f408c-35bd-49b8-8b48-bf71a1f2a5f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

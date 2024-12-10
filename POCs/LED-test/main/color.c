@@ -1,8 +1,11 @@
 #include <math.h>
-#include "color.h"
-#include "esp_log.h"
 
-#define PI 3.14159265358979323846
+#include "math_funcs.h"
+#include "color.h"
+
+#ifndef WIN32
+#include "esp_log.h"
+#endif  //WIN32
 
 ColorHSV RGBtoHSV(ColorRGB c) {
     double hue = 0;
